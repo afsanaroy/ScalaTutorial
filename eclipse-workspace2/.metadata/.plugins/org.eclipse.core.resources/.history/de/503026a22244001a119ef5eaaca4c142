@@ -1,0 +1,21 @@
+
+
+object MatchExample {
+  def main(args: Array[String]){
+    val age = 18;
+    age match {
+      case 20 => println(age);
+      case 18 => println(age);
+      case _ => println("default");
+      
+    }
+    
+    var result = age match {
+      case 20 => age;
+      case 18 => age;
+      case _ => "default";
+      
+    }
+    println(result);
+  }
+}
