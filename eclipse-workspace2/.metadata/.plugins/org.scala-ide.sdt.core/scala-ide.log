@@ -87,3 +87,179 @@
 2020-01-31 17:45:36,613  WARN [Worker-21: Building] - ScalaProject - Project Basics runs on platform default installation.
 2020-01-31 17:45:47,862  WARN [Worker-9: Building] - ScalaProject - Project Basics has platform default sourceLevel.
 2020-01-31 17:45:47,869  WARN [Worker-9: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:38:39,943  WARN [Worker-41: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:38:40,004  WARN [Worker-41: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:39:48,910  WARN [Worker-41: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:39:48,973  WARN [Worker-41: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:42:23,519  WARN [Worker-42: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:42:23,525  WARN [Worker-42: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:43:01,803  WARN [Worker-41: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:43:01,912  WARN [Worker-41: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:44:12,046  WARN [Worker-38: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:44:12,061  WARN [Worker-38: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:44:15,732  WARN [Worker-37: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:44:15,733  WARN [Worker-37: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:44:33,278  WARN [Worker-37: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:44:33,296  WARN [Worker-37: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:44:46,305  WARN [Worker-40: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:44:46,305  WARN [Worker-40: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:46:32,644  WARN [main] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:46:32,680  WARN [main] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:46:32,958  WARN [Worker-38: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:46:32,959  WARN [Worker-38: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:46:34,632  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2020-02-01 11:49:58,063  WARN [Worker-26: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:49:58,091  WARN [Worker-26: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:57:55,082  WARN [Worker-40: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:57:55,122  WARN [Worker-40: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:58:35,188  WARN [Worker-41: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:58:35,202  WARN [Worker-41: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 11:59:30,542  WARN [Worker-42: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 11:59:30,549  WARN [Worker-42: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 12:00:07,574  WARN [Worker-38: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 12:00:07,585  WARN [Worker-38: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 12:01:18,215  WARN [Worker-39: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 12:01:18,222  WARN [Worker-39: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 12:05:09,037  WARN [Worker-38: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 12:05:09,079  WARN [Worker-38: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 12:05:36,820  WARN [Worker-38: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 12:05:36,824  WARN [Worker-38: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 12:05:59,058  WARN [Worker-26: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 12:05:59,081  WARN [Worker-26: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 12:26:45,820  WARN [main] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 12:26:45,842  WARN [main] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 12:26:46,118  WARN [Worker-42: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 12:26:46,120  WARN [Worker-42: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 12:33:01,872  WARN [Worker-43: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 12:33:01,884  WARN [Worker-43: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 12:33:26,147  WARN [Worker-26: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 12:33:26,152  WARN [Worker-26: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 13:41:23,434  WARN [Worker-40: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 13:41:23,677  WARN [Worker-40: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 13:41:45,250  WARN [Worker-49: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 13:41:45,257  WARN [Worker-49: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 13:41:56,591  WARN [Worker-26: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 13:41:56,592  WARN [Worker-26: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 13:42:40,517  WARN [Worker-49: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 13:42:40,527  WARN [Worker-49: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 13:42:51,730  WARN [Worker-47: Launching HOF$] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 13:42:51,750  WARN [Worker-47: Launching HOF$] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 13:44:19,274  WARN [main] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 13:44:19,288  WARN [main] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 13:44:19,522  WARN [Worker-39: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 13:44:19,523  WARN [Worker-39: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 13:46:37,753  WARN [Worker-40: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 13:46:37,850  WARN [Worker-40: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 13:59:22,898  WARN [Worker-39: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 13:59:22,933  WARN [Worker-39: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 14:02:33,639  WARN [Worker-40: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 14:02:33,675  WARN [Worker-40: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 14:06:05,495  WARN [Worker-39: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 14:06:05,516  WARN [Worker-39: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 14:06:35,034  WARN [Worker-39: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 14:06:35,040  WARN [Worker-39: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 14:37:22,144  WARN [main] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 14:37:22,148  WARN [main] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 14:37:22,401  WARN [Worker-40: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 14:37:22,401  WARN [Worker-40: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 14:40:07,805  WARN [Worker-40: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 14:40:07,815  WARN [Worker-40: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 14:41:16,035  WARN [Worker-46: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 14:41:16,074  WARN [Worker-46: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 14:45:51,271  WARN [Worker-40: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 14:45:51,344  WARN [Worker-40: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 14:59:34,233  WARN [Worker-40: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 14:59:34,298  WARN [Worker-40: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:01:55,619  WARN [main] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:01:55,639  WARN [main] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:01:55,900  WARN [Worker-47: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:01:55,900  WARN [Worker-47: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:04:22,469  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 196
+2020-02-01 15:04:24,719  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 197
+2020-02-01 15:04:26,775  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 200
+2020-02-01 15:05:06,473  WARN [Worker-39: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:05:06,516  WARN [Worker-39: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:06:29,894  WARN [Worker-47: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:06:29,942  WARN [Worker-47: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:06:58,930  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 282
+2020-02-01 15:07:00,054  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 284
+2020-02-01 15:07:01,326  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 286
+2020-02-01 15:07:01,327  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 286
+2020-02-01 15:07:03,907  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 287
+2020-02-01 15:07:04,420  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 287
+2020-02-01 15:08:24,905  WARN [Worker-26: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:08:24,926  WARN [Worker-26: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:11:12,889  WARN [Worker-47: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:11:12,912  WARN [Worker-47: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:12:31,387  WARN [Worker-26: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:12:31,407  WARN [Worker-26: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:13:00,176  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 325
+2020-02-01 15:13:00,249  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 334
+2020-02-01 15:13:03,341  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 331
+2020-02-01 15:13:03,341  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 340
+2020-02-01 15:13:15,372  WARN [Worker-40: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:13:15,377  WARN [Worker-40: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:14:39,324  WARN [Worker-40: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:14:39,348  WARN [Worker-40: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:16:32,510  WARN [main] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:16:32,520  WARN [main] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:16:32,679  WARN [Worker-26: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:16:32,680  WARN [Worker-26: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:31:14,843  WARN [Worker-26: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:31:14,912  WARN [Worker-26: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:31:50,500  WARN [Worker-39: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:31:50,513  WARN [Worker-39: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:32:59,292  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2020-02-01 15:32:59,578  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2020-02-01 15:33:23,391  WARN [Worker-46: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:33:23,407  WARN [Worker-46: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:33:53,284  WARN [Worker-26: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:33:53,298  WARN [Worker-26: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:34:39,924  WARN [Worker-39: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:34:39,924  WARN [Worker-39: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:35:18,570  WARN [Worker-50: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:35:18,580  WARN [Worker-50: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:35:59,994  WARN [Worker-47: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:36:00,093  WARN [Worker-47: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:36:15,463  WARN [Worker-50: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:36:15,483  WARN [Worker-50: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:37:00,736  WARN [Worker-50: Launching ListExamples$] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:37:00,736  WARN [Worker-50: Launching ListExamples$] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:38:41,677  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 659
+2020-02-01 15:38:42,918  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 660
+2020-02-01 15:38:45,022  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 664
+2020-02-01 15:38:53,170  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 666
+2020-02-01 15:38:53,172  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 666
+2020-02-01 15:39:17,628  WARN [Worker-46: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:39:17,656  WARN [Worker-46: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:40:00,656  WARN [Worker-46: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:40:00,714  WARN [Worker-46: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:40:07,657  WARN [Worker-50: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:40:07,703  WARN [Worker-50: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:44:12,363  WARN [main] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:44:12,416  WARN [main] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:44:12,696  WARN [Worker-51: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:44:12,696  WARN [Worker-51: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:44:13,866  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2020-02-01 15:47:34,300  WARN [Worker-47: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:47:34,305  WARN [Worker-47: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:53:40,375  WARN [main] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:53:40,380  WARN [main] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:53:40,604  WARN [Worker-26: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:53:40,605  WARN [Worker-26: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:56:26,312  WARN [Worker-40: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:56:26,345  WARN [Worker-40: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 15:59:09,527  WARN [Worker-40: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 15:59:09,553  WARN [Worker-40: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 16:00:43,616  WARN [Worker-51: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 16:00:43,636  WARN [Worker-51: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 16:01:28,235  WARN [Worker-39: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 16:01:28,261  WARN [Worker-39: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 16:04:35,378  WARN [Worker-52: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 16:04:35,435  WARN [Worker-52: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 16:04:50,181  WARN [Worker-46: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 16:04:50,191  WARN [Worker-46: Building] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 16:48:59,120  WARN [main] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 16:48:59,145  WARN [main] - ScalaProject - Project Basics runs on platform default installation.
+2020-02-01 16:48:59,418  WARN [Worker-39: Building] - ScalaProject - Project Basics has platform default sourceLevel.
+2020-02-01 16:48:59,418  WARN [Worker-39: Building] - ScalaProject - Project Basics runs on platform default installation.

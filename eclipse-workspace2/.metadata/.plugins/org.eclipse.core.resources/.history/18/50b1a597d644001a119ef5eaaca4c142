@@ -1,0 +1,18 @@
+
+
+object ArrayExamples {
+  
+  val myarray: Array[Int] = new Array[Int](4);
+  val myarray2 = new Array[Int](5);
+  
+  def main(args: Array[String]){
+    myarray(0)=20;
+    myarray(1)=50;
+    myarray(2)=50;
+    myarray(3)=90;
+
+    for(x <- myarray){
+      println(x);
+    }
+  }
+}

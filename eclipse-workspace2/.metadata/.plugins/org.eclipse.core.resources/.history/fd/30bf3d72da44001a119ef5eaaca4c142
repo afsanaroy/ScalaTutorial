@@ -1,0 +1,20 @@
+
+
+object ListExamples {
+  val mylist: List[Int] = List(1,2,5,8,9,6,4);
+  val names: List[String] = List("Max", "Tom", "John");
+  
+  def main(args: Array[String]){
+    println(0 :: mylist);
+    println(mylist);
+    println(names);
+    println(1 :: 5 :: 9 :: Nil);
+    println(mylist);
+    println(mylist.head);
+    println(names.tail); //whatever you get after removing first value
+    println(names.isEmpty);
+    println(names.reverse);
+    println(List.fill(5)(2));
+    
+  }
+}

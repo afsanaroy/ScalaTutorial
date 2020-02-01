@@ -1,0 +1,19 @@
+
+
+object MapsExample {
+  
+  val mymap : Map[Int, String] = Map(801 -> "Max", 802 ->"Tom", 803 -> "June");
+  
+  def main(args: Array[String]){
+    println(mymap);
+    println(mymap(803));
+    println(mymap.keys);
+    println(mymap.values);
+    
+    mymap.keys.foreach { key =>
+      println("Key " + key);
+      println("Value " +mymap(key));
+    }
+    
+  }
+}

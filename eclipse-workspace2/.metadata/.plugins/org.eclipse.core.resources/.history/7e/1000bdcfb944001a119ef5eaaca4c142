@@ -1,0 +1,26 @@
+
+
+object FunctionExamples {
+  
+  def add(x: Int,y: Int): Int={
+     x +y;
+  }
+  
+  def subtract(x: Int,y: Int): Int={
+     x - y;
+  }
+  
+  def multiply(x: Int,y: Int): Int= x * y;
+  
+  
+  def divide(x: Int,y: Int)= x / y;
+  
+  def main(args: Array[String]){
+    println(add(4, 6));
+    println(subtract(10, 6));
+    println(multiply(10, 6));
+    println(divide(10, 5));
+    
+    
+  }
+}

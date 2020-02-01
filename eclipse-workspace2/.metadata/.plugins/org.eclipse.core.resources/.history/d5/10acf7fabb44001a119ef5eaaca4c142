@@ -1,0 +1,15 @@
+
+
+object FunctionsAdvanced {
+  
+  object Math{
+    def add(x: Int = 45, y: Int = 15): Int ={
+      return x + y;
+    }
+    def square(x:Int)= x*x;
+  }
+  def main(args:Array[String]){
+    println(Math.add());
+    println(Math square 3);
+  }
+}

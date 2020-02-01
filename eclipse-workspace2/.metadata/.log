@@ -8,3 +8,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.core.net 1 0 2020-01-31 14:56:23.549
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.scala-ide.sdt.core 1 0 2020-02-01 14:43:07.064
+!MESSAGE Timeout while resolving hyperlink in /Users/AfsanaRoy/Desktop/ScalaTutorial/eclipse-workspace2/Basics/src/StringExample.scala at: offset: 119, length: 0

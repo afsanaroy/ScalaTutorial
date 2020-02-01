@@ -1,0 +1,9 @@
+
+
+object StringExample {
+  
+  val str1: String = "Hello World";
+  def main(args: Array[String]){
+    println(str1.length());
+  }
+}
