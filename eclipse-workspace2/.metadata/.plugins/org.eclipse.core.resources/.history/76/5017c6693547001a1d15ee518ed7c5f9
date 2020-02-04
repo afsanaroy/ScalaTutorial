@@ -1,0 +1,5 @@
+package week4
+
+object actors {
+  def sleep(time: Long) { Thread.sleep(time) }
+}
