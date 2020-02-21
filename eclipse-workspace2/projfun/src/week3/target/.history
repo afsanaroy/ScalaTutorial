@@ -1,0 +1,5 @@
+libraryDependencies += "org.scala-graph" %% "graph-core" % "1.13.2"
+libraryDependencies += "org.scala-graph" %% "graph-core" % "1.13.2";
+sbtVersion
+libraryDependencies += "org.scala-graph" % "graph-core" % "1.13.2"
+sbt libraryDependencies += "org.scala-graph" % "graph-core" % "1.13.2"
