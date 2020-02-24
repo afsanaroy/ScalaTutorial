@@ -1,87 +1,134 @@
-import java.util.ArrayList
+import HamiltonianCycle._
 
-import java.util.Arrays
-
-import java.util.List
+//remove if not needed
 //import scala.collection.JavaConversions._
-//import scala.collection.JavaConverters._
 import scala.jdk.CollectionConverters._
-import scala.io.Source
-import java.io._
-import scala.collection.mutable.ArrayBuffer
-import scala.collection.mutable.Set
+object HamiltonianCycle {
 
+// driver program to test above function
+  def main(args: Array[String]): Unit = {
+    val hamiltonian: HamiltonianCycle = new HamiltonianCycle()
+    /* Let us create the following graph
+           (0)--(1)--(2)
+   /    |
+  /     |
+ /     |
+           (3)-------(4)    */
 
-class Edge(var source: Int, var dest: Int)
+    val graph1: Array[Array[Int]] = Array(Array(0, 1, 0, 1, 0),
+                                          Array(1, 0, 1, 1, 1),
+                                          Array(0, 1, 0, 0, 1),
+                                          Array(1, 1, 0, 0, 1),
+                                          Array(0, 1, 1, 1, 0))
+// Print the solution
+    hamiltonian.hamCycle(graph1)
+    /* Let us create the following graph
+           (0)--(1)--(2)
+   /    |
+  /     |
+ /     |
+           (3)       (4)    */
 
-class Graph // Constructor
-(edges: List[Edge], N: Int) {
-
-// An array of Lists to represent adjacency list
-  var adjList: List[List[Integer]] = new ArrayList(N)
-
-  for (i <- 0 until N) {
-    adjList.add(i, new ArrayList())
-  }
-  for (i <- 0 until edges.size) {
-    val src: Int = edges.get(i).source
-    val dest: Int = edges.get(i).dest
-    adjList.get(src).add(dest)
-    adjList.get(dest).add(src)
-  }
-  object HamiltonianPaths {
-
-  def printAllHamiltonianPaths(g: Graph,
-                               v: Int,
-                               visited: Array[Boolean],
-                               path: List[Integer],
-                               N: Int): Unit = {
-// hamiltonian path exists
-    if (path.size == N) {
-// print hamiltonian path
-      for(i <- path.asScala) System.out.print(i)
-	println()
-	return
-    }
-// to a solution or not
-    for (w <- g.adjList.get(v).asScala if !visited(w)) {
-      visited(w) = true
-      path.add(w)
-// to solution or not
-      printAllHamiltonianPaths(g, w, visited, path, N)
-// Backtrack
-      visited(w) = false
-      path.remove(path.size - 1)
-    }
-// check if adding vertex w to the path leads
-// check if adding vertex w to the path leads
-  }
-// if all the vertices are visited, then
-// Check if every edge starting from vertex v leads
-def main(args: Array[String]): Unit = {
-// List of graph edges as per above diagram
-    val edges: List[Edge] = Arrays.asList(new Edge(0, 1),
-                                          new Edge(0, 2),
-                                          new Edge(0, 3),
-                                          new Edge(1, 2),
-                                          new Edge(1, 3),
-                                          new Edge(2, 3))
-// Set number of vertices in the graph
-    val N: Int = 4
-// create a graph from edges
-    val g: Graph = new Graph(edges, N)
-// starting node
-    val start: Int = 0
-// add starting node to the path
-    val path: List[Integer] = new ArrayList[Integer]()
-    path.add(start)
-// mark start node as visited
-    val visited: Array[Boolean] = Array.ofDim[Boolean](N)
-    visited(start) = true
-    printAllHamiltonianPaths(g, start, visited, path, N)
+    val graph2: Array[Array[Int]] = Array(Array(0, 1, 0, 1, 0),
+                                          Array(1, 0, 1, 1, 1),
+                                          Array(0, 1, 0, 0, 1),
+                                          Array(1, 1, 0, 0, 0),
+                                          Array(0, 1, 1, 0, 0))
+// Print the solution
+    hamiltonian.hamCycle(graph2)
   }
 
 }
+
+class HamiltonianCycle {
+
+  val V: Int = 5
+
+  var path: Int = _
+
+  /* A utility function to check if the vertex v can be
+       added at index 'pos'in the Hamiltonian Cycle
+       constructed so far (stored in 'path[]') */
+
+  def isSafe(v: Int,graph: Array[Array[Int]], path: Array[Int], pos: Int): Boolean = {
+    /* Check if this vertex is an adjacent vertex of
+           the previously added vertex. */
+
+    if (graph(path(pos - 1))(v) == 0) false
+    for (i <- 0 until pos if path(i) == v) false
+    true
+  }
+
+  /* A recursive utility function to solve hamiltonian
+       cycle problem */
+
+  def hamCycleUtil(graph: Array[Array[Int]],
+                   path: Array[Int],
+                   pos: Int): Boolean = {
+    /* base case: If all vertices are included in
+           Hamiltonian Cycle */
+
+    if (pos == V) {
+// vertex to the first vertex
+      if (graph(path(pos - 1))(path(0)) == 1) true else false
+    }
+// And if there is an edge from the last included
+// And if there is an edge from the last included
+    for (v <- 1 until V if isSafe(v, graph, path, pos)) {
+      path(pos) = v
+      /* recur to construct rest of the path */
+
+      if (hamCycleUtil(graph, path, pos + 1) == true) true
+      /* If adding vertex v doesn't lead to a solution,
+                   then remove it */
+
+      path(pos) = -1
+    }
+    /* If no vertex can be added to Hamiltonian Cycle
+           constructed so far, then return false */
+
+    false
+  }
+// Try different vertices as a next candidate in
+// Hamiltonian Cycle. We don't try for 0 as we
+// Try different vertices as a next candidate in
+// Hamiltonian Cycle. We don't try for 0 as we
+
+  /* This function solves the Hamiltonian Cycle problem using
+       Backtracking. It mainly uses hamCycleUtil() to solve the
+       problem. It returns false if there is no Hamiltonian Cycle
+       possible, otherwise return true and prints the path.
+       Please note that there may be more than one solutions,
+       this function prints one of the feasible solutions. */
+
+  def hamCycle(graph: Array[Array[Int]]): Int = {
+    path = Array.ofDim[Int](V)
+    (0 to V).withFilter.foreach(i => path(i) = -1)
+   // for (i <- 0 until  V) yield (path(i) = -1)
+    /* Let us put vertex 0 as the first vertex in the path.
+           If there is a Hamiltonian Cycle, then the path can be
+           started from any point of the cycle as the graph is
+           undirected */
+
+    path(0) = 0
+    if (hamCycleUtil(graph, path, 1) == false) {
+      println("Solution does not exist")
+      0
+    }
+    printSolution(path)
+    1
+  }
+
+  /* A utility function to print solution */
+
+  def printSolution(path: Array[Int]): Unit = {
+    println("Solution Exists: Following" + " is one Hamiltonian Cycle")
+    for (i <- 0 until V) yield  path(i)
+// complete cycle
+    println(" " + path(0) + " ")
+  }
+// Let us print the first vertex again to show the
+// Let us print the first vertex again to show the
 
 }
 
